@@ -1,0 +1,9 @@
+name: Hello                             # workflow名
+on: push                                # event（push時に起動）
+jobs:                                   # jobの定義
+    hello:                              # jogID
+        runs-on:    ubuntu-latest       # runner（Ubuntuで実行）
+        steps:                          # stepの定義
+            - run:  echo "Hello, world" # シェルコマンドの実行
+            - uses: actions/checkout@v4 # アクションの呼び出し
+
