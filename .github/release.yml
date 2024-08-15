@@ -1,0 +1,9 @@
+changelog:
+  categories: # リリースノートのカテゴリ設定
+    - title: Enhancement # リリースノートへ「Enhancement」というカテゴリを作成
+      labels:
+        - enhancement # 「Enhancement」へ掲載するプルリクエストのラベルを指定
+    - title: Bug Fixes
+      labels: # プルリクエストのラべルは複数定義可能
+        - bug
+        - fixes
